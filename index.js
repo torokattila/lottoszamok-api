@@ -105,8 +105,8 @@ app.get('/skandinavlotto', (req, res) => {
         res.status(200);
         res.setHeader('Content-Type', 'application/json');
         res.json({
-            'gepi sorsolas': machineArray,
-            'kezi sorsolas': handArray
+            'gepi_sorsolas': machineArray,
+            'kezi_sorsolas': handArray
         });
     }
 });
